@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;serialization.external.Car&apos; to &apos;ExternExample&apos;&#x0D;&#x0A;- Original project: &apos;Core_java_2020&apos;&#x0D;&#x0A;- Original element: &apos;serialization.external.Car&apos;&#x0D;&#x0A;- Renamed element: &apos;serialization.external.ExternExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Car&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;serialization.external{Car.java[Car" matchStrategy="1" name="ExternExample" qualified="false" references="true" similarDeclarations="false" stamp="1577279250971" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="student">
+  <class name="Address" table="ADDRESS1">
+		<meta attribute="class-description">This class contains the student's address
+			details.</meta>
+		<id name="addressId" type="long" column="ADDRESS_ID">
+			<generator class="native" />
+		</id>
+		<property name="street" column="ADDRESS_STREET" type="string" length="250" />
+		<property name="city" column="ADDRESS_CITY" type="string" length="50" />
+		<property name="state" column="ADDRESS_STATE" type="string" length="50" />
+		<property name="zipcode" column="ADDRESS_ZIPCODE" type="string" length="10" />
+	</class>
+
+</hibernate-mapping>

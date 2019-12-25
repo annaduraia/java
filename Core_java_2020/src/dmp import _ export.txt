@@ -1,0 +1,23 @@
+cmd
+
+
+C:\oraclexe\app\oracle\product\10.2.0\server\BIN
+
+
+
+imp msa_new/aavanor@localhost fromuser='msa_new' touser='msa_new' file='msa_new.dmp' rows=y
+
+
+
+
+export steps
+
+cmd
+
+
+C:\oraclexe\app\oracle\product\10.2.0\server\BIN
+ 
+
+exp msa_new/aavanor@localhost  file='msa_new.dmp' rows=y
+
+

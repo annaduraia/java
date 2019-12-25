@@ -1,0 +1,26 @@
+# database properties
+app.jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
+app.jdbc.url=jdbc:oracle:thin:@localhost:1521:SYSTEM
+app.jdbc.username=anna
+app.jdbc.password=anna
+
+#hibernate properties
+hibernate.config=/WEB-INF/hibernate.cfg.xml
+
+
+################### JDBC Configuration ##########################
+jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
+jdbc.url=jdbc:oracle:thin:@172.16.28.29:1521:XE
+jdbc.username=anna
+jdbc.password=anna
+
+#jdbc.driverClassName=org.hsqldb.jdbcDriver
+#jdbc.url=jdbc:hsqldb:file:db/SivaLabsDB;shutdown=true
+#jdbc.username=sa
+#jdbc.password=
+
+################### Hibernate Configuration ##########################
+hibernate.dialect=org.hibernate.dialect.MySQLDialect
+hibernate.show_sql=true
+#hibernate.hbm2ddl.auto=update
+hibernate.generate_statistics=true

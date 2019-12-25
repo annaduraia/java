@@ -1,0 +1,17 @@
+127.0.0.1 - - [25/Dec/2019:18:54:27 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:18:54:28 +0530] "GET /SpringMVCloginExample/ HTTP/1.1" 404 1047
+127.0.0.1 - - [25/Dec/2019:19:42:24 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:42:25 +0530] "GET /SpringMVCHibernate/ HTTP/1.1" 404 1097
+127.0.0.1 - - [25/Dec/2019:19:44:20 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:44:21 +0530] "GET /SpringMVCHibernate/ HTTP/1.1" 404 1097
+127.0.0.1 - - [25/Dec/2019:19:45:56 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:46:05 +0530] "GET /SpringMVCHibernate/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:46:06 +0530] "GET /SpringMVCHibernate/viewAllContacts.do HTTP/1.1" 200 1075
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:46:06 +0530] "GET /SpringMVCHibernate/js/contacts.js HTTP/1.1" 200 235
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:46:13 +0530] "GET /SpringMVCHibernate/login.do HTTP/1.1" 200 689
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:46:19 +0530] "POST /SpringMVCHibernate/login.do HTTP/1.1" 200 710
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:47:13 +0530] "POST /SpringMVCHibernate/login.do HTTP/1.1" 200 297
+127.0.0.1 - - [25/Dec/2019:19:53:06 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:53:07 +0530] "GET /SpringMVCHibernate/ HTTP/1.1" 404 1097
+127.0.0.1 - - [25/Dec/2019:19:59:51 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [25/Dec/2019:19:59:53 +0530] "GET /SpringMVCloginExample/ HTTP/1.1" 500 17898

@@ -1,0 +1,11 @@
+
+public class Hello {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome");
+		Thread thread = new Thread();
+		thread.start();
+		
+		thread.sleep(1000);
+	}
+}

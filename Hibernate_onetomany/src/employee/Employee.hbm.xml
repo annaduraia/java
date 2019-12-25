@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="employee">
+  <class name="Employee" table="EMPLOYEE">
+          <id name="employeeId" type="long" column="EMPLOYEE_ID">
+            <generator class="native" />
+        </id>
+        <property name="employeeName" type="string" not-null="true" length="100" column="EMPLOYEE_NAME" />
+        <set name="employeeAccountNumbers" table="EMPLOYEE_ACCOUNT" cascade="all">
+			<key column="EMPLOYEE_ID" />
+			<many-to-many column="ACCOUNT_ID" unique="true" class="employee.Account" />
+		</set>
+
+  </class>
+</hibernate-mapping>

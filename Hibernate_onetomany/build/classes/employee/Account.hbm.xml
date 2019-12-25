@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="employee">
+  <class name="Account" table="ACCOUNT">
+  <id name="accountId" type="long" column="ACCOUNT_ID">
+			<generator class="native" />
+		</id>
+		<property name="accountType" type="string" length="10" column="ACCOUNT_TYPE" />
+		<property name="accountNumber" type="string" length="15" column="ACCOUNT_NUMBER" />
+  </class>
+</hibernate-mapping>

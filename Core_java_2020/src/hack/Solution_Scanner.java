@@ -37,7 +37,7 @@ public class Solution_Scanner {
 	    return true;
 	}
 	public static void main(String[] args) {
-
+		//https://github.com/sunilsoni/Codility-Practice
 		 System.out.println(new Solution_Scanner().Solution("A2Le", "2pL1"));
 		 System.out.println(new Solution_Scanner().Solution("a10", "10a"));
 		System.out.println(new Solution_Scanner().Solution("ba1", "1Ad"));
